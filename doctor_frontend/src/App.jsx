@@ -1,6 +1,5 @@
 import Layout from "./layout/layout";
-
-// import "./App.css";
+import "./App.css";
 function App() {
   return (
     <>
