@@ -15,6 +15,7 @@ import avatarImg from "../assets/images/avatar-icon.png";
 import DoctorList from "../component/doctors/doctorList";
 import flagImg from "../assets/images/faq-img.png";
 import FlagList from "../component/flag/flagList";
+import Textimonial from "../component/testimonial/textimonial";
 const Home = () => {
   return (
     <>
@@ -279,7 +280,8 @@ const Home = () => {
             <p className="text__para text-center">
               word-class care for veryone. our health system offers unmatched
               expert health care
-            </p>
+            </p>{" "}
+            <Textimonial />
           </div>
         </div>
       </section>
